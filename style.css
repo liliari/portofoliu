@@ -1,0 +1,120 @@
+/* THEME NAME:WP-BOOTSTRAP-STARTER-CHILD
+TEMPLATE: WP-BOOTSTRAP-STARTER
+*/
+/* se renunta la footer-ul cu copyrigth 
+footer#colophon
+{
+    display: none;
+}
+*/
+h1,h1.entry-title,h2,h2.entry-title{
+    font-family:"Lora", "Linotype Didot","Baskerville",serif !important;
+    color: #563d7c !important;
+}
+/*se pot unifica urmatoarele 3 stilizari */
+.page .entry-title{
+    display:none;
+}
+header.page-header .page-title{
+    display:none;
+}
+.cat-links, .tags-links {
+    display:none;
+  }
+div#content.site-content{
+    padding-top:0px;
+    padding-bottom:0px;
+}
+a.dropdown-item{
+    font-size:0.80rem !important;
+    font-weight:bold;
+}
+ul.dropdown-menu.show{
+    background-color: #bba5e1;
+}
+.carousel-item div{
+    
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center; /* Center the image */
+    padding-top:30%; /* You must set a specified height */
+}
+/*formular contact elementor */
+.elementor .wpcf7-form.init{
+    padding-top:10px;
+}
+.elementor .elementor-widget-container{
+    padding-top:20px;
+}
+
+.elementor .wpcf7-form-control{
+
+    border-radius: 15px;
+}
+/*buton rotunjit la contact si comentarii blog*/
+.elementor .btn-primary,input#commentsubmit.submit.btn.btn-primary{
+    background-color: #563d7c;
+    border-radius: 25px;
+}
+header#masthead
+{background-color: #563d7c !important;
+}
+img.image.wp-image-40
+{padding-top:20px;
+}
+ul.cnss-social-icon{
+    text-align:right !important;}
+
+.widget-title{text-align:right;
+padding-top:50px;
+color:#ff00e9;
+font-family:"Lora", "Linotype Didot","Baskerville",serif;
+
+}
+h3.widget-title{
+    font-size:1.00rem;
+}
+/* subtitluri arhive postari */
+.widget-area .widget-title{
+    text-align:left;
+}
+#footer-widget{
+    background-color: #563d7c;
+}
+div.col-12{
+    text-align:center;
+}
+ul#menu-meniu-principal.navbar-nav li >a{
+    color:#ff00e9; 
+    font-size:1.00rem;
+    font-family: "Lora","Linotype Didot","Baskerville",serif;
+}
+h1.entry-title{
+    padding-top:10px;
+}
+.entry-content p{
+    color: #563d7c;
+}
+
+img.wp-image-181.size-full{
+    /*color:gray;*/
+    transform:scale(1);
+    transition:1s;
+}
+img.wp-image-181.size-full:hover{
+    /*color:green;*/
+    transform:scale(1.5);
+}
+@media only screen and (max-width: 600px) {
+    img.wp-image-181.size-full
+    {padding-bottom:20px;
+      
+    }
+    /*spatiu la afisarea elementelor din FP unele sub altele*/
+    /*bara de meniu principal dreapta */
+    .navbar-light .navbar-toggler-icon
+    {background-color: #ff00e9;}
+  }
+  li#menu-item-37.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-37.nav-item{
+    font-size:0.75rem !important;
+  }
+  
